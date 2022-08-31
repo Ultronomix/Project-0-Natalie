@@ -45,6 +45,9 @@ class Fourlegs extends Legendaries {
             case 7:
                 System.out.println("You picked Arceus!");
                 break;
+            case 8:
+                LegendarypokemonChoice();
+                break;
         }
         s.close();
     }

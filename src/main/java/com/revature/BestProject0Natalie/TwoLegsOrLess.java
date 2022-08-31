@@ -19,11 +19,12 @@ public class TwoLegsOrLess extends Legendaries {
                 + "3) Fire\n"
                 + "4) Fighting\n"
                 + "5) Fairy\n"
-                + "6) Steel'\n"
+                + "6) Steel\n"
                 + "7) Rock\n"
                 + "8) Ice\n"
                 + "9) Normal\n"
                 + "10) Psychic/ghost\n"
+
         );
         System.out.println();
 
@@ -58,6 +59,9 @@ public class TwoLegsOrLess extends Legendaries {
                 break;
             case 10:
                 System.out.println("You picked Lunala!");
+                break;
+            case 11:
+                LegendarypokemonChoice();
                 break;
         }
             s.close();

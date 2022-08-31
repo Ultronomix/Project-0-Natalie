@@ -54,6 +54,9 @@ class Fairy extends Legendaries {
             case 8:
                 System.out.println("You picked Enamorus!");
                 break;
+            case 9:
+                LegendarypokemonChoice();
+                break;
         }
         scan.close();
     }

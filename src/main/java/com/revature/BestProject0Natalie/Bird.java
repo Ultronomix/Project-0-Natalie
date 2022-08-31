@@ -33,6 +33,9 @@ public class Bird extends Legendaries {
                 System.out.println("1) Moltres\n"
                         + "2) Ho-oh\n");
                 break;
+            case 4:
+                LegendarypokemonChoice();
+                break;
         }
         System.out.println();
         int option1 = sc.nextInt();
@@ -42,6 +45,9 @@ public class Bird extends Legendaries {
                 break;
             case 2:
                 System.out.println("You picked Ho-oh!");
+                break;
+            case 3:
+                LegendarypokemonChoice();
                 break;
         }
         sc.close();
